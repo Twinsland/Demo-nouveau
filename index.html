@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twinsland - Démo Jouable</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenue sur Twinsland</h1>
+    <p>Ceci est une version démo jouable de l'univers.</p>
+    <p>Explorez, découvrez, apprenez et amusez-vous !</p>
+    <div class="controls">
+      <button onclick="toggleMusic()">Play/Pause</button>
+      <button onclick="next()">Suivant</button>
+      <input type="range" id="progress" value="0" />
+    </div>
+  </div>
+  <audio id="bg-music" loop>
+    <source src="assets/musics/track1.mp3" type="audio/mpeg" />
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>

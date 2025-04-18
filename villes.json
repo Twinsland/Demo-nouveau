@@ -1,0 +1,9 @@
+
+{
+  "villes": [
+    { "nom": "Cotonou", "type": "premium", "prix": "élevé" },
+    { "nom": "Parakou", "type": "standard", "prix": "moyen" },
+    { "nom": "Porto-Novo", "type": "standard", "prix": "moyen" },
+    { "nom": "Abomey-Calavi", "type": "standard", "prix": "moyen" }
+  ]
+}
